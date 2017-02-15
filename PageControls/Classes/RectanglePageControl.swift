@@ -100,7 +100,7 @@ import UIKit
     fileprivate func layoutInactivePageIndicators(_ layers: [CALayer]) {
         var layerFrame = CGRect(origin: CGPoint.zero, size: rectangleSize)
         layers.forEach() { layer in
-            layer.cornerRadius = layerFrame.size.height / 2
+            layer.cornerRadius = 0
             layer.frame = layerFrame
             layerFrame.origin.x += layerFrame.width + indicatorPadding
         }
