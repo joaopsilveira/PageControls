@@ -56,7 +56,7 @@ import UIKit
         layer.frame = CGRect(origin: CGPoint.zero,
                              size: CGSize(width: self.rectangleSize.width, height: self.rectangleSize.height))
         layer.backgroundColor = self.activeTint.cgColor
-        layer.cornerRadius = self.rectangleSize.height/2
+        layer.cornerRadius = 0
         layer.actions = [
             "bounds": NSNull(),
             "frame": NSNull(),
