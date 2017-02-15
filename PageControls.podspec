@@ -40,6 +40,10 @@ This is a selection of custom page controls to replace UIPageControl, inspired b
     pillPageControl.source_files = 'PageControls/Classes/PillPageControl.*'
   end
 
+  s.subspec 'RectanglePageControl' do |rectanglePageControl|
+    rectanglePageControl.source_files = 'PageControls/Classes/RectanglePageControl.*'
+  end
+
   s.subspec 'ScrollingPageControl' do |scrollingPageControl|
     scrollingPageControl.source_files = 'PageControls/Classes/ScrollingPageControl.*'
   end
